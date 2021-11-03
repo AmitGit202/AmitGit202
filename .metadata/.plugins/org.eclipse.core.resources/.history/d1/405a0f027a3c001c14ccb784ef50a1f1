@@ -73,9 +73,6 @@ public class Test1
 		names.add("Man");
 		names.add("Woman");
 		names.add("None");
-		names.add("Yes");
-		names.add("No");
-		names.add("None of the above");
 		//Print names which have last letter "a" with Upercase
 		Stream.of("Amari","Rama","Asit","Ajay","Nitu").filter(s->s.endsWith("a")).map(s->s.toUpperCase())
 		.forEach(s->System.out.println(s));

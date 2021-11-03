@@ -5791,3 +5791,55 @@ java -ea -classpath D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\confi
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 55036 -protocol json -d D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\WorkSpace\TutorialStreams\test-output C:\Users\AMITAV~1\AppData\Local\Temp\testng-eclipse-72082750\testng-customsuite.xml
 java -ea -classpath D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\1013\0\.cp\lib\testng-remote.jar:D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\WorkSpace\TutorialStreams\bin:D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\plugins\org.testng_7.3.0.r202008060316.jar:D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.78.0.jar:D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 55036 -protocol json -d D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\WorkSpace\TutorialStreams\test-output C:\Users\AMITAV~1\AppData\Local\Temp\testng-eclipse-72082750\testng-customsuite.xml
+!SESSION 2021-11-03 12:47:41.401 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/D:/Software/eclipse-jee-2019-06-R-win32-x86_64/eclipse/WorkSpace/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2021-11-03 12:47:57.976
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-03 12:48:20.026
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Amitava Chakraborty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 12:48:43.626
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 12:49:00.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 12:49:00.348
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2021-11-03 13:05:02.907 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\WorkSpace -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2021-11-03 13:05:06.701
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-03 13:05:16.183
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Amitava Chakraborty'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 13:05:27.496
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 13:05:36.191
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-03 13:05:36.201
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
