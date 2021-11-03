@@ -1,0 +1,13 @@
+package dataDriven.ExcelDataProvider;
+
+public class DataProvide 
+{
+	
+	//Multiple set of data to our Tests
+	//array public
+	//5 sets of data as 5 arrays from data provider to your tests
+	//Then your test will run 5 times with 5 separate sets of data(arrays)
+	
+
+	
+}

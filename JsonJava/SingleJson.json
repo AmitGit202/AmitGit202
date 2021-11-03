@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+			"courseName": "Appium",
+			"purchasedDate": "2021-09-29",
+			"amount": 919,
+			"location": "Asia"
+		},
+		{
+			"courseName": "WebServices",
+			"purchasedDate": "2021-09-29",
+			"amount": 211,
+			"location": "Asia"
+		},
+		{
+			"courseName": "Jmeter",
+			"purchasedDate": "2021-09-29",
+			"amount": 716,
+			"location": "Asia"
+		},
+		{
+			"courseName": "CICD",
+			"purchasedDate": "2021-09-29",
+			"amount": 7166,
+			"location": "Asia"
+		}
+	]
+}

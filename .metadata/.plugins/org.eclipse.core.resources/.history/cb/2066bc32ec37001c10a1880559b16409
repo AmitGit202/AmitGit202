@@ -1,0 +1,35 @@
+package dataDriven.ExcelDataProvider;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class DataProvide 
+{
+
+	//Multiple set of data to our Tests
+	//array public
+	//5 sets of data as 5 arrays from data provider to your tests
+	//Then your test will run 5 times with 5 separate sets of data(arrays)
+
+	@Test(dataProvider="driventest")
+	public void testCaseData(String greeting, String communication,int id)
+	{
+		System.out.println(greeting+communication+id);
+	}
+/*	
+	@DataProvider(name="driventest")
+	public Object[][] getData()
+	{
+		Object[][] data = {{"hello","text",1},{"bye","message",2},{"solo","call",3}};
+		return data;
+
+	}
+	*/
+	@DataProvider(name="driventest")
+	public Object[][] getData()
+	{
+		Object[][] data = {{"hello","text",1},{"bye","message",2},{"solo","call",3}};
+		return data;
+
+	}
+}

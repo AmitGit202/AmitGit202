@@ -1,0 +1,4 @@
+# Created at 2021-10-06T20:22:23.424
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Software\eclipse-jee-2019-06-R-win32-x86_64\eclipse\WorkSpace\DockerValidation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
