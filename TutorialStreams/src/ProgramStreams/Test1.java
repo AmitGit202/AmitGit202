@@ -66,6 +66,37 @@ public class Test1
 		names.stream().filter(s->s.length()>4).limit(1).forEach(s->System.out.println(s));
 
 	}
+	@Test
+	public void DuplicatestreamFilter()
+	{
+		List<String> names = new ArrayList<String>();
+		names.add("Amari");
+		names.add("Raman");
+		names.add("Asit");
+		names.add("Ajay");
+		names.add("Nitu");
+		/*
+		 * There is no life of intermediate operation if there is no terminal
+		 * Terminal operation will execute only if intermediate operation(filter) return Trur
+		 * we can create stream
+		 * how to use filter in stream API 
+
+		Long c = names.stream().filter(s->s.startsWith("A")).count();
+		System.out.println(c);
+		 */
+		Long d = Stream.of("Amari","Raman","Asit","Ajay","Nitu").filter(t->
+		{
+			t.startsWith("A");
+			return true;
+		}).count();
+
+		System.out.println(d);
+		//Print all the Names of ArrayList
+
+		names.stream().filter(s->s.length()>4).forEach(s->System.out.println(s));
+		names.stream().filter(s->s.length()>4).limit(1).forEach(s->System.out.println(s));
+
+	}
 	//	@Test
 	public void stramMap()
 	{
